@@ -1,0 +1,27 @@
+.Container {
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+
+.lampa {
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.felkapcsolva {
+    background-color: yellow;
+
+}
+
+.lekapocslva {
+    background-color: gray;
+
+}
